@@ -1,6 +1,6 @@
 :root {
   --primary: #507570;
-  --secondary: #82818f;
+  --secondary: #4a0888;
   --pop: #366987;
 }
 
@@ -74,7 +74,7 @@ header nav ul li a:hover {
 
 
 .hero {
-  background-image: url("Clouds.jpg.");
+  background-image: url("https://images.unsplash.com/photo-1567941085898-d5bf3ff007ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -92,7 +92,7 @@ header nav ul li a:hover {
   display: flex;
   justify-content: end;
   text-align: right;
-  color: lightgray;
+  color: rgb(24, 19, 90);
 }
 
 .hero .quote #quote-text {
@@ -149,7 +149,7 @@ header nav ul li a:hover {
 }
 
 .projects-grid {
-  width: 70%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -184,7 +184,7 @@ header nav ul li a:hover {
 }
 
 .Password-Generator {
-  background-image: url("");
+  background-image: url("https://images.unsplash.com/photo-1550684848-86a5d8727436?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8NDg2NzI5NXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
   background-position: 60% 50%;
 }
 
